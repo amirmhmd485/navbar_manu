@@ -24,7 +24,7 @@ header{
     ul{
         list-style: none;
         display: flex;
-        transition: 0.005s;
+        transition: 0.5s;
         li{
             padding: 10px;
             font-size: 16px;
@@ -59,18 +59,16 @@ header{
         }
         ul{
             position: absolute;
-            top:57px;
+            top:56px;
             left: 0;
             width: 100%;
             flex-direction: column;
             justify-content: center;
-            transition: 0.5s;
             overflow: hidden;
-            padding: 0;
-            height: 0;
             z-index: 999;
-            background-color: white;
-            box-shadow: 0.5px 0.5px 10px 0px black;
+            height: 0;
+            background-color: orange;
+            transition: 0.5s;
             li{
                 text-align: start;
                 width: 100%;
